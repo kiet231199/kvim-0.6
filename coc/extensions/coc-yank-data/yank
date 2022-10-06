@@ -1,0 +1,1679 @@
+11e8bf088f9359882210a79fda827409|file:///root/nvim-kietpham/config/nvim/coc-settings.json|69|1|v|json
+			"<2-LeftMouse>": [
+				"expandable?", ["expanded?", "collapse", "expand"], "open"
+			],
+	
+b21b153524eca3867a7cdf30d525f1e1|file:///root/nvim-kietpham/config/nvim/coc-settings.json|75|18|V|json
+			"o": ["wait", "expanded?", "collapse", "expand"],
+5dacb8a6397f1298f90d39d2004f6cce|file:///root/nvim-kietpham/config/nvim/coc-settings.json|76|5|V|json
+			"e": "open",
+18d0b17fd7dd78f4b78600ba8d59fb58|file:///root/nvim-kietpham/config/nvim/coc-settings.json|111|1|V|json
+	
+			"gf": "gotoSource:file",
+			"gb": "gotoSource:buffer",
+	
+			"[[": ["wait", "sourcePrev"],
+			"]]": ["wait", "sourceNext"],
+	
+			"[i": ["wait", "indentPrev"],
+			"]i": ["wait", "indentNext"],
+	
+			"[m": ["wait", "markPrev:modified"],
+			"]m": ["wait", "markNext:modified"],
+	
+			"[d": ["wait", "markPrev:diagnosticError:diagnosticWarning"],
+			"]d": ["wait", "markNext:diagnosticError:diagnosticWarning"],
+			"[D": ["wait", "markPrev:diagnosticError"],
+			"]D": ["wait", "markNext:diagnosticError"],
+	
+			"[c": ["wait", "markPrev:git"],
+			"]c": ["wait", "markNext:git"],
+			"<<": "gitStage",
+			">>": "gitUnstage"
+a56fa83389f87c6b6a20caa9d38eaff6|file:///root/nvim-kietpham/config/nvim/coc-settings.json|107|1|V|json
+			"gd": "listDrive",
+573fb99abf62b8a49fadf6f85166605e|file:///root/nvim-kietpham/config/nvim/coc-settings.json|106|1|V|json
+			"X": "systemExecute",
+bba1abea4ed90392cf9c4779f5197898|file:///root/nvim-kietpham/config/nvim/coc-settings.json|72|6|V|json
+			"<space>": [
+				"expandable?", ["expanded?", "collapse", "expand"], "open"
+			],
+a2709b30c8c98dc5b99fa7c39bea346a|file:///root/nvim-kietpham/config/nvim/coc-settings.json|112|40|V|json
+		"suggest.completionItemKindLabels.method": "A",
+7ff01782b64460f94f470b9537cd4f94|file:///root/nvim-kietpham/config/nvim/settings/coc_explorer.vim|46|107|V|vim
+	:call CocActionAsync('runCommand', 'explorer.doAction', 'closest', [{'name': 'adjustSize', 'args': ['-20x-20']}])
+640c3420dfc8a2bfd0b71f43b07adadf|file:///root/nvim-kietpham/config/nvim/coc-settings.json|14|27|V|json
+		"explorer.floating.contentWidth": 20,
+316457ada734875bd48d958d875d6e3a|file:///root/nvim-kietpham/config/nvim/coc-settings.json|14|1|V|json
+		"explorer.floating.border.chars": [
+			"─",
+			"│",
+			"─",
+			"│",
+			"╭",
+			"╮",
+			"╯",
+			"╰"
+		],
+b098bbe70acd7e1e687db1aa54a1c964|file:///root/nvim-kietpham/config/nvim/coc-settings.json|69|1|V|json
+			"Il": "previewOnHover:toggle:labeling",
+			"Ic": "previewOnHover:toggle:content",
+			"II": "previewOnHover:disable",
+82e448fb05b23915d9ec52e009c7663c|file:///root/nvim-kietpham/config/nvim/coc-settings.json|68|1|V|json
+			"ic": "preview:content",
+d92c616ab7b8bfacb681c6cb099ad741|file:///root/nvim-kietpham/config/nvim/coc-settings.json|81|1|V|json
+			"zh": "toggleHidden",
+1112010c05a0aa077a670b62a629c33e|file:///root/nvim-kietpham/config/nvim/coc-settings.json|81|1|V|json
+			"g<dot>": "toggleHidden",
+b0b45953c20090e1dd9f56dd723abd30|file:///root/nvim-kietpham/config/nvim/coc-settings.json|87|1|V|json
+			"<C-Left>": "adjustSize:adjustSize:['+10x+0']"
+92ef1f0a8c0566812e0941db28ff5832|file:///root/nvim-kietpham/config/nvim/coc-settings.json|16|14|V|json
+		"explorer.icon.customIcons": {
+			"icons": {},
+			"extensions": {},
+			"filenames": {},
+			"dirnames": {},
+			"patternMatches": {},
+			"dirPatternMatches": {}
+		},
+a5d68e68ea6a915c8dd3c920e2e470d1|file:///root/nvim-kietpham/config/nvim/settings/coc_explorer.vim|1|1|V|vim
+	" let g:coc_explorer_global_presets = {
+	" \   '.vim': {
+	" \     'root-uri': '~/.vim',
+	" \   },
+	" \   'cocConfig': {
+	" \      'root-uri': '~/.config/coc',
+	" \   },
+	" \   'tab': {
+	" \     'position': 'tab',
+	" \     'quit-on-open': v:true,
+	" \   },
+	" \   'tab:$': {
+	" \     'position': 'tab:$',
+	" \     'quit-on-open': v:true,
+	" \   },
+	" \   'floating': {
+	" \     'position': 'floating',
+	" \     'open-action-strategy': 'sourceWindow',
+	" \   },
+	" \   'floatingTop': {
+	" \     'position': 'floating',
+	" \     'floating-position': 'center-top',
+	" \     'open-action-strategy': 'sourceWindow',
+	" \   },
+	" \   'floatingLeftside': {
+	" \     'position': 'floating',
+	" \     'floating-position': 'left-center',
+	" \     'floating-width': 50,
+	" \     'open-action-strategy': 'sourceWindow',
+	" \   },
+	" \   'floatingRightside': {
+	" \     'position': 'floating',
+	" \     'floating-position': 'right-center',
+	" \     'floating-width': 50,
+	" \     'open-action-strategy': 'sourceWindow',
+	" \   },
+	" \   'simplify': {
+	" \     'file-child-template': '[selection | clip | 1] [indent][icon | 1] [filename omitCenter 1]'
+	" \   },
+	" \   'buffer': {
+	" \     'sources': [{'name': 'buffer', 'expand': v:true}]
+	" \   },
+	" \ }
+a7da4e45ecf5a5d9837d83a102928d4d|file:///root/nvim-kietpham/config/nvim/settings/keymap.vim|85|3|V|vim
+	map <leader> ,
+479fee5618f2dffc3bb89beadc63f380|file:///root/nvim-kietpham/config/nvim/coc-settings.json|32|41|v|json
+	",
+		"explorer.git.icon.rootStatus.deleted": "",
+		"explorer.git.icon.rootStatus.renamed": "",
+		"explorer.git.icon.rootStatus.conflicted": "",
+		"explorer.git.icon.status.unmodified": " ",
+		"explorer.git.icon.status.modified":"✹",
+		"explorer.git.icon.status.added":
+4c8e918a25f67e35c2c7db0a866f3fdd|file:///root/nvim-kietpham/config/nvim/coc-settings.json|16|31|v|json
+	{
+			"icons": {},
+			"extensions": {},
+			"filenames": {},
+			"dirnames": {},
+			"patternMatches": {},
+			"dirPatternMatches": {}
+		},
+	
+fd8cb6b613f79912afcd66aa02076015|file:///root/nvim-kietpham/config/nvim/coc-settings.json|16|31|V|json
+		"explorer.icon.customIcons": 	"explorer.icon.expanded": "",
+3e575e3a5a62fbdebc62578209a769f5|file:///root/nvim-kietpham/config/nvim/coc-settings.json|55|7|V|json
+			"te": "open:tab",
+5ce3f20de082c2b89eed42e4913cfcd1|file:///root/nvim-kietpham/config/nvim/coc-settings.json|45|18|V|json
+			"<c-o>": "noop",
+40985e24734e7c2edc3ce26e56f94064|file:///root/nvim-kietpham/config/nvim/coc-settings.json|23|1|V|json
+				}
+caf835b90ef59d8ad48d52a12c023084|file:///root/nvim-kietpham/config/nvim/coc-settings.json|18|4|V|json
+				"status": {
+d228c413f69902f42bd392376b9c57fb|file:///root/nvim-kietpham/config/nvim/coc-settings.json|18|1|V|json
+				"added": {
+					"color": "#000000",
+					"code": ""
+				}
+0cf31b2c283ce3431794586df7b0996d|untitled:11|1|4|V|easy_replace
+	    
+10e6591c958b8acba4b7a5334c13ee7f|file:///root/nvim-kietpham/config/nvim/coc-settings.json|18|4|V|json
+				"added":{
+					"code": "",
+					"color": "#00afaf"
+				},
+	
+ca7f11f4d169c9eeffee79ddeb45e43f|file:///root/nvim-kietpham/config/nvim/coc-settings.json|33|10|V|json
+		"explorer.file.child.labelingTemplate": "[fullpath][link][diagnosticError][diagnosticWarning][git][size][timeAccessed][timeModified][timeCreated][readonly] [modified]",
+b501ad5eafd8b5d1831de72d9f8b91f7|file:///root/nvim-kietpham/config/nvim/coc-settings.json|23|1|V|json
+					"code": "",
+					"color": "#00afaf"
+4f2fbf2e55136fae7a172c6dae0d13be|file:///root/nvim-kietpham/config/nvim/coc-settings.json|27|4|V|json
+					
+7db31be9fb698f4347d54375bc9e2088|file:///root/nvim-kietpham/config/nvim/coc-settings.json|33|4|V|json
+				""
+1b4eff95a7bb19f40797772e2a5f86d9|file:///root/nvim-kietpham/config/nvim/coc-settings.json|30|1|V|json
+				"modified": {
+				},
+ddaba769bde70a1c93175dc1089fc8cd|file:///root/nvim-kietpham/config/nvim/coc-settings.json|30|1|V|json
+				"added": {
+				},
+72ae26e738039869193a9948c6bb687b|file:///root/nvim-kietpham/config/nvim/coc-settings.json|26|4|v|json
+	"icon.status.added": {
+					"code": " ",
+					"color": "#00afaf"
+				},
+				"icon.status.modified": {
+					"code": " ",
+					"color": "#00afaf"
+				}
+dca929cca48176396624fc3f12642f51|file:///root/nvim-kietpham/config/nvim/coc-settings.json|49|40|v|json
+	"",
+c8b2111949a1c1288b7b3736e8750069|file:///root/nvim-kietpham/config/nvim/coc-settings.json|33|29|V|json
+		"explorer.icon.status.added": "",
+c66e839598bf9e18db94b82f7e65d2c2|file:///root/nvim-kietpham/config/nvim/init.vim|35|1|V|vim
+		" File browser
+	   	Plug 'preservim/nerdtree'
+		Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+		Plug 'Xuyuanp/nerdtree-git-plugin'
+c50cd0b0b4cf5d800691a5b708ea276b|file:///root/nvim-kietpham/config/nvim/settings/keymap.vim|3|12|v|vim
+	NERDTree
+ebc50feb16e09727dbefa706663ead94|file:///root/nvim-kietpham/config/nvim/settings/keymap.vim|2|1|V|vim
+	<F3> for Minimap
+4b2a4c926b90e4dbc855e8e25db26a05|file:///root/nvim-kietpham/config/nvim/init.vim|84|21|v|vim
+	need adjust size and i
+35669d4fac6a5049a32e75cd3416df20|file:///root/nvim-kietpham/config/nvim/settings/keymap.vim|82|3|v|vim
+	Turn tab to insert mode
+6bd056349d200db2cda0810e700107a9|file:///root/nvim-kietpham/config/nvim/settings/keymap.vim|85|1|V|vim
+	nnoremap <Space> i<Space>
+12d4b91c041247386115217ca69d2f69|file:///root/nvim-kietpham/config/nvim/settings/keymap.vim|14|2|v|vim
+	noremap <silent> <F11> :call CocToggle()<CR>
+e1249784b99274173ca827180810cf3b|file:///root/nvim-kietpham/config/nvim/coc-settings.json|16|1|V|json
+		"explorer.icon.source": "nvim-web-devicons",
+e916a610af7e00979806a48a426ec3cd|file:///root/nvim-kietpham/config/nvim/coc-settings.json|18|26|v|json
+	"nvim-web-devicons",
+ce67ce3fade97a32a5f0b357506289ca|file:///root/nvim-kietpham/config/nvim/coc-settings.json|17|24|V|json
+		"explorer.icon.source":
+b7d5b78ff2f903662ccb25eec96b2f53|file:///root/nvim-kietpham/config/nvim/coc-settings.json|15|27|V|json
+		"explorer.icon.enableVimDevicons": true,
+7c1c035a2091dc016d6a17ea71d3792d|file:///root/nvim-kietpham/config/nvim/coc-settings.json|32|8|V|json
+				"addd"
+76d1359c156b544a3c57dffde64f6e1e|file:///root/nvim-kietpham/config/nvim/coc-settings.json|46|2|V|json
+				 "excel": {
+	      "code": "",
+	      "color": "#207245"
+	    },
+	    "word": {
+	      "code": "",
+	      "color": "#185abd"
+	    },
+	    "ppt": {
+	      "code": "",
+	      "color": "#cb4a32"
+	    },
+1ea769cd14c6a292f369deac00c13da6|file:///root/nvim-kietpham/config/nvim/coc-settings.json|34|2|V|json
+				"folderSymlink": {
+					"code": "",
+					"color": "#00afaf"
+				},
+				"fileSymlink": {
+					"code": "",
+					"color": "#999999"
+				},
+				"fileHidden": {
+					"code": "",
+					"color": "#999999"
+				},
+71dc95b7ba3d79770ac212726c7507ed|file:///root/nvim-kietpham/config/nvim/coc-settings.json|33|5|v|json
+	"mrkdown": {
+32ee833502b193bba670d1c6616fb27d|file:///root/nvim-kietpham/config/nvim/coc-settings.json|34|1|V|json
+	      "code": "",
+	      "color": "#519aba"
+	    },a
+e332ce943bf3d5b45653c1da047def10|file:///root/nvim-kietpham/config/nvim/coc-settings.json|34|1|V|json
+				    "c": {
+	      "code": "",
+	      "color": "#519aba"
+	    },
+5a6d51a135b48984d844421ce2fd9e70|file:///root/nvim-kietpham/config/nvim/coc-settings.json|28|13|v|json
+	 "#00afaf"
+	
+275b29d96029af3dfa391d60d3cd17cd|file:///root/nvim-kietpham/config/nvim/coc-settings.json|24|13|v|json
+	"#ffffff"
+5373751fa4ca710cdebe4c9d7d062141|file:///root/nvim-kietpham/config/nvim/coc-settings.json|34|1|V|json
+				    "text": {
+	      "code": "",
+	      "color": "#999999"
+	    },
+ce4b3c947427230bcfbbeff4fcd4c65d|file:///root/nvim-kietpham/config/nvim/coc-settings.json|34|1|V|json
+	    "conf": {
+	      "code": "",
+	      "color": "#6d8086"
+	    },}
+650c27d15d6769fd6f8a45c3f6b4c8a1|file:///root/nvim-kietpham/config/nvim/coc-settings.json|13|19|V|json
+			// nerd-font: nf-mdi-auto_fix, text used when there're code actions and quickfix exists
+9b7e75dbfb99633ca6ca5e70341afc56|file:///root/nvim-kietpham/config/nvim/coc-settings.json|11|17|V|json
+			// nerd-font: nf-mdi-lightbulb, text used when there're code actions
+bbd82fb916fbf99b6244d5fe72b1185a|file:///root/nvim-kietpham/config/nvim/coc-settings.json|16|6|V|json
+		"yank"
+0be6462e8ab08abc6337605801ae6183|file:///root/nvim-kietpham/config/nvim/init.vim|83|1|V|vim
+	
+		"Coc explorer 90%: change status icons and files colors"
+		"Coc git 0%
+		"Coc lightbulb 0%
+		"Coc yank 0%
+c03f56468cd2008b46f5caf12975a195|file:///root/nvim-kietpham/config/nvim/settings/floaterm.vim|16|1|V|vim
+	tnoremap p <C-\><C-n>p
+f0895f814d5e7acce48088816ff2ccc7|file:///root/nvim-kietpham/config/nvim/settings/floaterm.vim|17|1|V|vim
+	" hi Floaterm guibg=Normal
+	" hi FloatermBorder guifg=#A9B1D6 guibg=Normal
+ff79fb20b7541a533d890c4e12ba1eb3|file:///root/nvim-kietpham/config/nvim/lua/pluglua/init.lua|5|1|V|lua
+	require('pluglua.scrollbar')
+206daf36662ba224d4648f6dee7e30a6|file:///root/nvim-kietpham/config/nvim/lua/pluglua/init.lua|2|1|V|lua
+	-- require('pluglua.searchbox')
+830f0cf47a971aef78445f0b0b5f35ef|file:///root/nvim-kietpham/config/nvim/init.vim|47|1|V|vim
+		" Searchbox
+		" Plug 'VonHeikemen/searchbox.nvim'           " Bug with neovim 0.6, install when be able to update neovim
+		" Plug 'MunifTanjim/nui.nvim'
+2b7547d8bc75d3a39b2a30eb9f65c6da|file:///root/nvim-kietpham/config/nvim/init.vim|65|1|V|vim
+		Plug 'petertriho/nvim-scrollbar'
+931a37310f29680a032b8c0bc8dadbd1|file:///root/nvim-kietpham/config/nvim/init.vim|65|1|V|vim
+		Plug 'Xuyuanp/scrollbar.nvim'
+ec3dbc0e9435c4f9ab108df1b0fffc83|file:///root/nvim-kietpham/config/nvim/lua/pluglua/scrollview.lua|2|3|V|lua
+	  excluded_filetypes = {'nerdtree'},
+ea5ee68e4fa8af18848d2731b60ae718|file:///root/nvim-kietpham/config/nvim/lua/pluglua/scrollview.lua|2|2|V|lua
+		crollView = WildMenu,
+7701f0574b4a5650c569cefff0dfdf18|file:///root/nvim-kietpham/config/nvim/lua/pluglua/scrollview.lua|2|2|V|lua
+		winblend = 50%,
+206dd26d54dd030a316ec388f812be4a|file:///root/nvim-kietpham/config/nvim/lua/pluglua/scrollview.lua|3|20|V|lua
+		current_only = true,
+7382f9c0ac37e9ab7826ab8f39b7dd9d|file:///root/nvim-kietpham/config/nvim/settings/highlight_map.vim|9|4|v|vim
+	default 
+d722c3b2264e5bb0ad1f40ce60320695|file:///root/nvim-kietpham/config/nvim/settings/highlight_map.vim|9|5|v|vim
+	ink 
+5fdc7b301dc6c973b039ce2b99f1f266|file:///root/nvim-kietpham/config/nvim/autoload/onedark.vim|6|57|v|vim
+	#E8464A
+70475fc72019d32560d12eb99e5c25d5|file:///root/nvim-kietpham/config/nvim/autoload/onedark.vim|6|57|v|vim
+	#AA4646
+679ab0d15351d8cffa52ddf80a3e8006|file:///root/nvim-kietpham/config/nvim/lua/pluglua/wilder.lua|28|1|V|lua
+		wilder.popupmenu_scrollbar({
+			thumb_char = '|'
+		})
+9fce1f0c46aea7168ccb301d3b745a8c|file:///root/nvim-kietpham/config/nvim/lua/pluglua/wilder.lua|26|44|v|lua
+	{thumb_char = '\'}
+79550dc0bae907d47cd3d8c499166016|file:///root/nvim-kietpham/config/nvim/lua/pluglua/wilder.lua|26|58|v|lua
+	r = '/'})},
+12f0b32c4a1728bf9e38ce106ca691c8|file:///root/nvim-kietpham/config/nvim/settings/highlight_map.vim|9|22|v|vim
+	guibg=#A9B1D6 gui
+dfeafe71e791e26dcb58b9e25b53a4c5|file:///root/nvim-kietpham/config/nvim/coc-settings.json|83|5|v|json
+	expandable?", ["expanded?", "collapse", "expand"], "open:tab"
+	
+44b1d0d3dcd82432784c375496718b97|file:///root/nvim-kietpham/config/nvim/coc-settings.json|80|1|v|json
+	"expandable?", "expand", "open:tab"]
+649fcb7358df23273425450ad8893cbe|file:///root/nvim-kietpham/config/nvim/lua/pluglua/tabline.lua|20|1|V|lua
+	    set guioptions-=e " Use showtabline in gui vim
+	    set sessionoptions+=tabpages,globals " store tabpages and globals in session
+6e5a0139a926417e40b39fbef0340613|file:///root/nvim-kietpham/config/nvim/lua/pluglua/tabline.lua|19|2|V|lua
+	vim.cmd[[
+7ec3b6ea0e821f283a8f1d5bc43cc860|file:///root/nvim-kietpham/config/nvim/settings/airline_theme.vim|26|1|V|vim
+	let g:airline_left_sep = ''
+	let g:airline_left_alt_sep = ''
+	let g:airline_right_sep = ''
+	let g:airline_right_alt_sep = ''
+912f4409e1c366dca9a5f27cf9c27f15|file:///root/nvim-kietpham/config/nvim/lua/pluglua/tabline.lua|19|1|V|lua
+	let g:airline_left_sep = ''
+	let g:airline_left_alt_sep = ''
+	let g:airline_right_sep = ''
+	let g:airline_right_alt_sep = ''
+60b761493e00d02bcac9de3772281d0d|file:///root/nvim-kietpham/config/nvim/init.vim|82|17|V|vim
+		Plug 'kdheepak/tabline.nvim'
+ce6cfa3e2fb1898a6695524e7435d170|file:///root/nvim-kietpham/config/nvim/init.vim|81|10|V|vim
+		" Tabline
+5d55ec1daf9d7cc1abc9e94c8ea93322|file:///root/nvim-kietpham/config/nvim/autoload/onedark.vim|30|1|V|vim
+	" #E8464A
+dff1185039d647f9927651e84d67d78a|file:///root/nvim-kietpham/config/nvim/settings/highlight_map.vim|37|1|v|vim
+	let g:indent_blankline_char_highlight_list = [ "IndentBlanklineChar0",
+													\"IndentBlanklineChar1",
+													\"IndentBlanklineChar2",
+													\"IndentBlanklineChar3",
+													\"IndentBlanklineChar4",
+													\"IndentBlanklineChar5",
+													\"IndentBlanklineChar6",
+													\"IndentBlanklineChar7",
+													\"IndentBlanklineChar8",
+													\"IndentBlanklineChar9"]
+91bccdab8ed4e07c1a849050fd4350f8|file:///root/nvim-kietpham/config/nvim/lua/pluglua/init.lua|10|1|V|lua
+	require('pluglua.indent_blankline')
+64adad68e03a82099989cb4fd726a2cd|file:///root/nvim-kietpham/config/nvim/settings/gitgutter.vim|2|17|v|vim
+	itGutterNextHunk)
+	nmap [h <Plug>(GitGutterPrevHunk)
+	let g:gitgutter_show_msg_on_hunk_jumping = 0
+	commnd! Gqf GitGutte
+6ba34ec3ee2c798ee11f074491abaf5f|file:///root/nvim-kietpham/config/nvim/settings/gitgutter.vim|2|18|V|vim
+	nmap ]h <Plug>(GddrQuickFix | copena
+90a068c5aed39abb78e2150164e20dd8|file:///root/nvim-kietpham/config/nvim/settings/gitgutter.vim|10|1|V|vim
+	let g:gitgutter_preview_win_floating = 1
+cdea26f6157511a55e1f4019e393c9f5|file:///root/nvim-kietpham/config/nvim/settings/gitgutter.vim|10|1|V|vim
+	" Your vimrc
+fd9b2735f5b06deda178306016bcf8d6|file:///root/nvim-kietpham/config/nvim/settings/gitgutter.vim|10|1|V|vim
+	function! GitStatus()
+	  let [a,m,r] = GitGutterGetHunkSummary()
+	  return printf('+%d ~%d -%d', a, m, r)
+	endfunction
+15f630e8fefef67c9d550a2326173ae7|file:///root/nvim-kietpham/config/nvim/settings/gitgutter.vim|2|3|V|vim
+	"Git gutter 
+75b6f6a2d5405aeb318e08219f910ff3|file:///root/nvim-kietpham/config/nvim/settings/gitgutter.vim|4|15|V|vim
+	let g:gitgutter_sign_removed = '✖'
+260235904c096d82885caa0ca4bd0bed|file:///root/nvim-kietpham/config/nvim/settings/gitgutter.vim|5|1|V|vim
+	let g:gitgutter_sign_removed_first_line = '^'
+	let g:gitgutter_sign_modified_removed = '<'
+e20e4dac2a1bdfda105a48fb572a6b4b|file:///root/nvim-kietpham/config/nvim/settings/keymap.vim|2|1|V|vim
+	" <F4> for Telescope
+399bee418c7599d0fc9ed14b55925f05|file:///root/nvim-kietpham/config/nvim/settings/keymap.vim|2|12|v|vim
+	Telescope
+cec7939c9c17cf330b16e92cab55e83b|file:///root/nvim-kietpham/config/nvim/settings/gitgutter.vim|8|37|v|vim
+	ctermbg=whatever
+34326034be1602c3e7532c92ae351731|file:///root/nvim-kietpham/config/nvim/settings/gitgutter.vim|12|22|v|vim
+	guibg=whatever
+	
+8746652298f1469e317dfe5e6fd4ecd8|file:///root/nvim-kietpham/config/nvim/settings/gitgutter.vim|12|21|v|vim
+	 highlight GitGutterAdd    guifg=#009900 ctermfg=2
+	highlight GitGutterChange guifg=#bbbb00 ctermfg=3
+	highlight GitGutterDelete guifg=#ff2222 ctermfg=1
+48b292d9153e65a7e0ecc7ea5ac33237|file:///root/nvim-kietpham/config/nvim/settings/gitgutter.vim|12|1|v|vim
+	highlight SignColumn
+3e1cb478c5fa473cbfe11694ef32947a|untitled:8|1|21|V|easy_replace
+	 " default: links to 
+e0bdfc2e0d3497bbb067ad5809c1e5cd|file:///root/nvim-kietpham/config/nvim/settings/gitgutter.vim|18|1|v|vim
+	highlight 
+81ee0dc0181b462db9eaba2c35d4260d|file:///root/nvim-kietpham/config/nvim/settings/gitgutter.vim|20|72|v|vim
+	, i.e. DiffChange
+	
+27db8b9d8f30e00bdfddd8e157811259|file:///root/nvim-kietpham/config/nvim/settings/gitgutter.vim|20|11|v|vim
+	GitGutterChangeDeleteLine
+07ad05c4e97072be5a2570c409860266|file:///root/nvim-kietpham/config/nvim/settings/gitgutter.vim|20|11|^v|vim
+	def link
+0dca9f00380490edbc3885ca6fba1720|file:///root/nvim-kietpham/config/nvim/settings/gitgutter.vim|19|30|^v|vim
+	def link 
+2316213dd4c5d6f01f84ea4672f911d3|file:///root/nvim-kietpham/config/nvim/init.vim|37|1|V|vim
+		" Comfortable motion
+		Plug 'yuttie/comfortable-motion.vim'
+7ab93feeb36d98e584d10de2e2f68843|untitled:4|1|5|V|easy_replace
+	cubic
+b79820804ed47948ca8f6eb7980967d0|file:///root/nvim-kietpham/config/nvim/init.vim|145|19|V|vim
+	let g:cursorhold_updatetime = 200
+058ca129466c56e0287aa34e6aef841a|file:///root/nvim-kietpham/config/nvim/settings/telescope.vim|9|17|V|vim
+	noremap <silent> <F4> <cmd>Telescope find_files prompt_prefix=🔍<CR>
+f444c3bfa17ed0f00257b01426940c48|file:///root/nvim-kietpham/config/nvim/plugged/startup.nvim/lua/startup/themes/dashboard.lua|11|1|v|lua
+	            " ███╗   ██╗ ███████╗ ██████╗  ██╗   ██╗ ██╗ ███╗   ███╗",
+	            " ████╗  ██║ ██╔════╝██╔═══██╗ ██║   ██║ ██║ ████╗ ████║",
+	            " ██╔██╗ ██║ █████╗  ██║   ██║ ██║   ██║ ██║ ██╔████╔██║",
+	            " ██║╚██╗██║ ██╔══╝  ██║   ██║ ╚██╗ ██╔╝ ██║ ██║╚██╔╝██║",
+	            " ██║ ╚████║ ███████╗╚██████╔╝  ╚████╔╝  ██║ ██║ ╚═╝ ██║",
+	            " ╚═╝  ╚═══╝ ╚══════╝ ╚═════╝    ╚═══╝   ╚═╝ ╚═╝     ╚═╝",
+28f1dff49996fd16628fca58a247069b|file:///root/nvim-kietpham/config/nvim/lua/pluglua/init.lua|12|1|V|lua
+	require('pluglua.colortils')
+6553385c6b3445c93af1b843b2631eb9|file:///root/nvim-kietpham/config/nvim/init.vim|85|1|V|vim
+		" Colortils
+		Plug 'nvim-colortils/colortils.nvim'
+20485c55731adaf71bce8e6a49b1f208|file:///root/nvim-kietpham/config/nvim/lua/pluglua/shade.lua|7|1|V|lua
+	    toggle           = '<Leader>s',
+a28b6705be6b2015a9f93759d512c17f|file:///root/nvim-kietpham/config/nvim/lua/pluglua/shade.lua|7|25|v|lua
+	<Leader>s',
+444b9c0cd603b201ba6e53b67e4edb6c|file:///root/nvim-kietpham/config/nvim/lua/pluglua/shade.lua|6|26|v|lua
+	-Down>',
+19e9046068e9709701b7e9e2316c8748|file:///root/nvim-kietpham/config/nvim/lua/pluglua/shade.lua|5|25|v|lua
+	<leader>su
+c41b863babb7f5bd6380e026e4f621da|file:///root/nvim-kietpham/config/nvim/lua/pluglua/todo-comments.lua|65|1|V|lua
+	-- TODO hello
+c7e96387adcb132b3bad3bded1aa28e2|file:///root/nvim-linux/config/nvim/lua/pluglua/neoscroll.lua|10|1|V|lua
+		pre_hook = nil,
+		post_hook = nil,
+7ec1b4300ed5e8edc932ba77bc7d2fa7|file:///root/nvim-linux/config/nvim/lua/pluglua/neoscroll.lua|5|1|V|lua
+		move_cursor = false,
+a605f8a3cb33624555311aa2017643ef|untitled:5|1|10|V|easy_replace
+	cursorline
+40fd0682f2ab407e29ae966e22a0cf97|file:///root/nvim-linux/config/nvim/init.vim|116|1|V|vim
+	colorscheme onedark
+532738e3b8103f9a74f5622edd710c60|file:///root/nvim-kietpham/config/nvim/init.vim|81|1|v|vim
+	nvim'				" TODO recheck scrolltype
+afc65bf891a20e3ec4212c9c64ecc529|file:///root/nvim-kietpham/config/nvim/init.vim|82|7|v|vim
+	'karb94/neoscroll.nvim'				" TODO recheck scrolltype
+faf1da4adf5a0a4920fcae35ab99f20d|file:///root/nvim-kietpham/config/nvim/lua/pluglua/init.lua|10|1|V|lua
+	require('pluglua.neoscroll')
+81a6b5934a115e2b72d9891fe591c1fa|file:///root/nvim-kietpham/config/nvim/init.vim|86|31|v|vim
+	" TODO Add macro to rightclick, and toggle when using easy replace (or find another replace pluggin)
+565016b2f9c8d0073fee776cb69413a3|file:///root/nvim-kietpham/config/nvim/init.vim|84|36|v|vim
+	" TODO Recheck keymap and remove Register
+5bfbe38c4431c4fc0e952f6394b2f604|file:///root/nvim-kietpham/config/nvim/init.vim|87|1|V|vim
+		" Todo Comment
+		Plug 'folke/todo-comments.nvim'				" TODO Add highlight and jump keymap
+3aaa25bdfa84709aa4ecea762bdec2de|file:///root/nvim-kietpham/config/nvim/lua/pluglua/init.lua|12|1|V|lua
+	require('pluglua.todo-comments')
+82a7ada3bcaca38631d80f68758565ef|file:///root/nvim-linux/config/nvim/init.vim|3|1|v|vim
+		" Plugin can be used in NEOVIM < 0.6.0, without lua and without Internet
+		" Status bar
+		" Plug 'vim-airline/vim-airline'
+		" Plug 'vim-airline/vim-airline-themes'
+	
+b13468a1ea5c96a611fe4ff4f1ebfba4|file:///root/nvim-linux/config/nvim/init.vim|4|1|V|vim
+		" Status bar
+		" Plug 'vim-airline/vim-airline'
+		" Plug 'vim-airline/vim-airline-themes'
+6b1618b37c249e7fb609908182bea7c8|file:///root/nvim-linux/config/nvim/init.vim|115|21|V|vim
+	" colorscheme onedark
+50c014170a56ae0fdc1cd30154867e64|file:///root/nvim-linux/config/nvim/init.vim|90|33|V|vim
+		" Plug 'nvim-treesitter/nvim-treesitter', { 'do': 'TSUpdate' }
+78ca3851efb17dd710c4635eee8402e0|file:///root/nvim-linux/config/nvim/init.vim|113|23|v|vim
+	-night
+bea82b9e7d9b917f57076ff15bbc660b|file:///root/nvim-linux/config/nvim/lua/pluglua/init.lua|14|1|V|lua
+	require('pluglua.tokyonight')
+4bf6cad0146dd8fa013ef59070820f5a|file:///root/nvim-linux/config/nvim/settings/keymap.vim|64|1|V|vim
+	nnoremap <silent> <C-s> :w<CR>:source %<CR>:lua require("notify")("Reload successfull 勒", "info",{title = "Reload file setting "})<CR>:noh<CR>
+7d21c1e66a3fffe1b98b2cceb5bd3b30|file:///root/nvim-linux/config/nvim/settings/keymap.vim|65|44|v|vim
+	:lua require("notify")("Reload successfull 勒", "info",{title = "Reload file setting "})<CR>:noh<CR>
+25d0a4f93b2fdf1fcabea8d27aa4fd5c|file:///root/nvim-linux/config/nvim/lua/pluglua/lualine.lua|40|15|V|lua
+	  options = { theme = 'tokyonight-night' }
+c9aa7c1bab4569836fcc23bbc7228be7|file:///root/nvim-linux/config/nvim/settings/keymap.vim|65|1|V|vim
+	nnoremap <silent> <C-s> :w<CR>:source %<CR>
+c60a7f06e8d0bb2c2b559f1cea9ea304|file:///root/nvim-linux/config/nvim/init.vim|5|1|V|vim
+		" Plug 'vim-airline/vim-airline'
+		" Plug 'vim-airline/vim-airline-themes'
+c035140ded16fe5055fbec7a58e9fbed|file:///root/nvim-kietpham/config/nvim/init.vim|92|1|V|vim
+		" Treesitter								" Install some package
+		Plug 'nvim-treesitter/nvim-treesitter', { 'branch': '0.5-compat' }
+2e45b112a01c6afefaa3a0aea712747e|file:///root/nvim-kietpham/config/nvim/settings/keymap.vim|17|1|V|vim
+	map <silent> <F12> :set norelativenumber!<CR>
+aae9f452f084517c5fed4baa5ebf450a|file:///root/nvim-kietpham/config/nvim/lua/pluglua/lualine.lua|40|1|V|lua
+		options = { theme = 'onedark' }
+1c13eba8ff260d86cff9bd665f231046|file:///root/nvim-kietpham/config/nvim/lua/pluglua/lualine.lua|40|21|V|lua
+		options = { theme = 'nightfly' }
+ae65ca1f99653ec1103b0531578751b5|file:///root/nvim-kietpham/config/nvim/init.vim|123|1|V|vim
+		require('pluglua')
+		require("notify")("Welcome Kiet Pham", "info", {title="RZ Feature Package"})
+ff63d42e8f59756b2dffd75511fb3b58|file:///root/nvim-kietpham/config/nvim/init.vim|120|1|V|vim
+	let g:coc_data_home = '~/nvim-kietpham/coc'
+3d4b9bffe578b26182688f5622d34ae0|file:///root/nvim-kietpham/config/nvim/init.vim|114|1|V|vim
+	set t_Co=256
+fc07e33a389c1e00cb0a359bd7175c4b|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|6|71|V|lua
+			-- A function to filter out unwanted buffers. Takes a buffer table as a
+			-- parameter (see the following section for more infos) and has to return
+			-- either `true` or `false`.
+			-- default: `false`.
+			filter_valid = function(buffer) -> true | false,
+	
+			-- A looser version of `filter_valid`, use this function if you still
+			-- want the `cokeline-{switch,focus}-{prev,next}` mappings to work for
+			-- these buffers without displaying them in your bufferline.
+			-- default: `false`.
+			filter_visible = function(buffer) -> true | false,
+1eb7458b1d80fd0213a027293732a54a|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|6|1|V|lua
+			-- Which buffer to focus when a buffer is deleted, `prev` focuses the
+			-- buffer to the left of the deleted one while `next` focuses the one the
+			-- right. Turned off by default.
+			-- default: `false`
+0b104949430cee5a5075487192df1b06|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|7|1|V|lua
+	
+			-- If set to `last` new buffers are added to the end of the bufferline,
+			-- if `next` they are added next to the current buffer.
+			-- default: 'last',
+31915a44372403216fceb246c9f77f74|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|10|1|V|lua
+			-- Controls what happens when the first (last) buffer is focused and you
+			-- try to focus/switch the previous (next) buffer. If `true` the last
+			-- (first) buffers gets focused/switched, if `false` nothing happens.
+			-- default: `true`.
+4fa9d5edde424bab1e2c05b911f34cea|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|13|2|V|lua
+			-- The maximum number of character	 a rendered buffer i	 allowed to take
+			-- up. The buffer will be truncated if it	 width i	 bigger than thi	
+			-- value.
+			-- default: `999`.
+d54aed151e0bbdac0809fca5b9c97927|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|20|1|V|lua
+			-- The buffer's internal number as reported by `:ls`.
+			number = int,
+3411b24bc1e2830f85a7404edf507af8|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|16|11|V|lua
+			-- The buffer's order in the bufferline (1 for the first buffer, 2 for the
+5d8b9ec8bd9db65c3e75bbd66f115fa8|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|16|11|V|lua
+			-- second one, etc.).
+541b13cc145299734d41be44e2ab4aae|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|20|1|V|lua
+	
+			-- The buffer is the first visible buffer in the tab bar
+ab18a7005839b861e6c63f789028afc3|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|21|20|V|lua
+			-- The buffer is the last visible buffer in the tab bar
+54698d59d19c09f1807f3ec48a5546ea|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|22|17|V|lua
+			-- The buffer's type as reported by `:echo &buftype`.
+559aa93068859910a7d6327073a229bc|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|23|17|V|lua
+			-- The buffer's filetype as reported by `:echo &filetype`.
+ba26e44a7175153b4239f27117a15193|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|24|17|V|lua
+			-- The buffer's full path.
+d46cdb66bfefabf59e6f859775c5beaa|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|25|17|V|lua
+			-- The buffer's filename.
+e19ce4a2934f4a637e956788167d171f|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|26|1|V|lua
+	
+			-- A unique prefix used to distinguish buffers with the same filename
+			-- stored in different directories. For example, if we have two files
+			-- `bar/foo.md` and `baz/foo.md`, then the first will have `bar/` as its
+			-- unique prefix and the second one will have `baz/`.
+db7706851a10d5a12e46d8bfb21984ed|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|27|1|V|lua
+	
+			-- The letter that is displayed when picking a buffer to either focus or
+			-- close it.
+0e05687b9bed3caaece648c1382252a4|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|30|11|V|lua
+					-- An icon representing the buffer's filetype.
+7494a5406882d7302141790eed83855a|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|31|11|V|lua
+					-- The colors of the devicon in hexadecimal format (useful to be passed
+cc6138e5d8ef83383e7418ad4b633d5f|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|31|11|V|lua
+					-- to a component's `fg` field (see the `Components` section).
+4fbf3f127acd414e6fc779a60a5293b9|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|33|17|V|lua
+			-- The values in this table are the ones reported by Neovim's built in
+c4d10309e5af159d0bac5197190f6f43|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|33|17|V|lua
+			-- LSP interface.
+ef5fe18909b6dd7aa415dc80bdb81f1f|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|15|1|V|lua
+		buffer = {
+			index = int,
+			number = int,
+			is_focused = true,
+			is_modified = true,
+			is_readonly = true,
+			is_first = true,
+			is_last	= true,
+			type = 'string',
+			filetype = 'string',
+			path = 'string',
+			filename = 'string',
+			unique_prefix = 'string',
+			pick_letter = 'char',
+			-- This needs the `kyazdani42/nvim-web-devicons` plugin to be installed.
+			devicon = {
+					icon = 'string',
+					color = '#rrggbb',
+			},
+			diagnostics = {
+				errors = int,
+				warnings = int,
+				infos = int,
+				hints = int,
+			},
+		},
+61a9ff7155def6e35c698010dc4c3db7|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|4|1|V|lua
+		show_if_buffer_are_at_least = 1,
+		buffers = {
+			focus_on_delete = 'prev',
+			new_buffers_position = 'last',
+		},
+		mappings = {
+			cycle_prev_next = true,
+		},
+		rendering = {
+			max_buffer_width = 40,
+		},
+		default_hl = {
+			fg = function(buffer)
+				return
+					buffer.is_focused
+					and get_hex('Normal', 'fg')
+					 or get_hex('Comment', 'fg')
+			end,
+			bg = get_hex('ColorColumn', 'bg'),
+		},
+	
+a6d92d22a6efda2ad233c40c98adcb66|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|4|1|V|lua
+		show_if_buffer_are_at_least = 1,
+		buffers = {
+			focus_on_delete = 'prev',
+			new_buffers_position = 'last',
+		},
+		mappings = {
+			cycle_prev_next = true,
+		},
+		rendering = {
+			max_buffer_width = 40,
+		},
+8c0399a50aae6f21d0f6291eb4a296d6|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|4|1|V|lua
+		default_hl = {
+			fg = function(buffer)
+21c055c51f2538aaaeaea15c992117d8|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|1|1|V|lua
+	local get_hex = require('cokeline/utils').get_hex
+	
+	require('cokeline').setup({
+		default_hl = {
+			fg = function(buffer)
+				return
+					buffer.is_focused
+					and get_hex('Normal', 'fg')
+					 or get_hex('Comment', 'fg')
+				end,
+			bg = get_hex('ColorColumn', 'bg'),
+		},
+	
+		components = {
+			{
+				text = ' ',
+				bg = get_hex('Normal', 'bg'),
+			},
+			{
+				text = '',
+				fg = get_hex('ColorColumn', 'bg'),
+				bg = get_hex('Normal', 'bg'),
+			},
+			{
+				text = function(buffer)
+					return buffer.devicon.icon
+				end,
+				fg = function(buffer)
+					return buffer.devicon.color
+				end,
+			},
+			{
+				text = ' ',
+			},
+			{
+				text = function(buffer) return buffer.filename .. '	' end,
+				style = function(buffer)
+					return buffer.is_focused and 'bold' or nil
+				end,
+			},
+			{
+				text = '',
+				delete_buffer_on_left_click = true,
+			},
+			{
+				text = '',
+				fg = get_hex('ColorColumn', 'bg'),
+				bg = get_hex('Normal', 'bg'),
+			},
+		},
+	})
+0a80a9dbc3c6296d0df9fa91826fae4e|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|4|1|V|lua
+		-- Only show the bufferline when there are at least this many visible buffers.
+	  -- default: `1`.
+	  show_if_buffers_are_at_least = int,
+	
+	  buffers = {
+	    -- A function to filter out unwanted buffers. Takes a buffer table as a
+	    -- parameter (see the following section for more infos) and has to return
+	    -- either `true` or `false`.
+	    -- default: `false`.
+	    filter_valid = function(buffer) -> true | false,
+	
+	    -- A looser version of `filter_valid`, use this function if you still
+	    -- want the `cokeline-{switch,focus}-{prev,next}` mappings to work for
+	    -- these buffers without displaying them in your bufferline.
+	    -- default: `false`.
+	    filter_visible = function(buffer) -> true | false,
+	
+	    -- Which buffer to focus when a buffer is deleted, `prev` focuses the
+	    -- buffer to the left of the deleted one while `next` focuses the one the
+	    -- right. Turned off by default.
+	    -- default: `false`
+	    focus_on_delete = 'prev' | 'next',
+	
+	    -- If set to `last` new buffers are added to the end of the bufferline,
+	    -- if `next` they are added next to the current buffer.
+	    -- default: 'last',
+	    new_buffers_position = 'last' | 'next',
+	  },
+	
+	  mappings = {
+	    -- Controls what happens when the first (last) buffer is focused and you
+	    -- try to focus/switch the previous (next) buffer. If `true` the last
+	    -- (first) buffers gets focused/switched, if `false` nothing happens.
+	    -- default: `true`.
+	    cycle_prev_next = true | false,
+	  },
+	
+	  rendering = {
+	    -- The maximum number of characters a rendered buffer is allowed to take
+	    -- up. The buffer will be truncated if its width is bigger than this
+	    -- value.
+	    -- default: `999`.
+	    max_buffer_width = int,
+	  },
+32d950509be8ea0bbeb74387a376852a|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|28|1|V|lua
+				fg = function(buffer)
+					return buffer.devicon.color
+				end,
+			},
+			{
+				text = ' ',
+			},
+			{
+				text = function(buffer) return buffer.filename .. '	' end,
+				style = function(buffer)
+					return buffer.is_focused and 'bold' or nil
+				end,
+			},
+			{
+				text = '',
+				delete_buffer_on_left_click = true,
+			},
+			{
+				text = '',
+				fg = get_hex('ColorColumn', 'bg'),
+				bg = get_hex('Normal', 'bg'),
+			},
+		},
+	})
+feab7a01b31e22fc748b412276049200|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|1|4|V|lua
+	local get_hex = require('cokeline/utils').get_hex
+	
+	require('cokeline').setup({
+		default_hl = {
+			fg = function(buffer)
+				return
+					buffer.is_focused
+					and get_hex('Normal', 'fg')
+					 or get_hex('Comment', 'fg')
+				end,
+			bg = get_hex('ColorColumn', 'bg'),
+		},
+	
+		components = {
+			{
+				text = ' ',
+				bg = get_hex('Normal', 'bg'),
+			},
+			{
+				text = '',
+				fg = get_hex('ColorColumn', 'bg'),
+				bg = get_hex('Normal', 'bg'),
+			},
+			{
+				text = function(buffer)
+					return buffer.devicon.icon
+				end,
+519e6a5d26a4b90614a7d8378b0828ed|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|30|2|V|lua
+			truncation = { priority = 1 }
+3b9845f7f7eabb4a77f68c2d27be10f5|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|21|22|V|lua
+	    separator_one = }
+	      text = '',
+	      fg = get_hex('ColorColumn', 'bg'),
+	      bg = get_hex('Normal', 'bg'),
+	    },
+16e1217464e6e53ee817b3bf8e95ca10|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|23|1|V|lua
+				return buffer.index ~= 1 and '|' or ''
+			end,
+			truncation = { priority = 1 }
+		},
+	
+		devicon = {
+			text = function(buffer)
+				return
+					(mappings.is_picking_focus() or mappings.is_picking_close())
+						and buffer.pick_letter .. ' '
+						 or buffer.devicon.icon
+			end,
+			fg = function(buffer)
+				return
+					(mappings.is_picking_focus() and yellow)
+					or (mappings.is_picking_close() and red)
+					or buffer.devicon.color
+			end,
+			style = function(_)
+				return
+					(mappings.is_picking_focus() or mappings.is_picking_close())
+					and 'italic,bold'
+					 or nil
+			end,
+			truncation = { priority = 1 }
+		},
+	
+		index = {
+			text = function(buffer)
+				return buffer.index .. ': '
+			end,
+			truncation = { priority = 1 }
+		},
+	
+		unique_prefix = {
+			text = function(buffer)
+				return buffer.unique_prefix
+			end,
+			fg = comments_fg,
+			style = 'italic',
+			truncation = {
+				priority = 3,
+				direction = 'left',
+			},
+		},
+	
+		filename = {
+			text = function(buffer)
+				return buffer.filename
+			end,
+			style = function(buffer)
+				return
+					((buffer.is_focused and buffer.diagnostics.errors ~= 0)
+						and 'bold,underline')
+					or (buffer.is_focused and 'bold')
+					or (buffer.diagnostics.errors ~= 0 and 'underline')
+					or nil
+			end,
+			truncation = {
+				priority = 2,
+				direction = 'left',
+			},
+		},
+	
+		diagnostics = {
+			text = function(buffer)
+				return
+					(buffer.diagnostics.errors ~= 0 and '  ' .. buffer.diagnostics.errors)
+					or (buffer.diagnostics.warnings ~= 0 and '  ' .. buffer.diagnostics.warnings)
+					or ''
+			end,
+			fg = function(buffer)
+				return
+					(buffer.diagnostics.errors ~= 0 and errors_fg)
+					or (buffer.diagnostics.warnings ~= 0 and warnings_fg)
+					or nil
+			end,
+			truncation = { priority = 1 },
+		},
+	
+		close_or_unsaved = {
+			text = function(buffer)
+				return buffer.is_modified and '●' or ''
+			end,
+			fg = function(buffer)
+				return buffer.is_modified and green or nil
+			end,
+			delete_buffer_on_left_click = true,
+			truncation = { priority = 1 },
+		},
+	}
+	
+	require('cokeline').setup({
+		show_if_buffers_are_at_least = 2,
+	
+		buffers = {
+			-- filter_valid = function(buffer) return buffer.type ~= 'terminal' end,
+			-- filter_visible = function(buffer) return buffer.type ~= 'terminal' end,
+			new_buffers_position = 'next',
+		},
+	
+		rendering = {
+			max_buffer_width = 30,
+		},
+	
+		default_hl = {
+			fg = function(buffer)
+				return
+					buffer.is_focused
+					and get_hex('Normal', 'fg')
+					 or get_hex('Comment', 'fg')
+			end,
+			bg = get_hex('ColorColumn', 'bg'),
+		},
+	
+		components = {
+			components.space,
+			components.separator,
+			components.space,
+			components.devicon,
+			components.space,
+			components.index,
+			components.unique_prefix,
+			components.filename,
+			components.diagnostics,
+			components.two_spaces,
+			components.close_or_unsaved,
+			components.space,
+		},
+	})
+df72c1408e171c8f08d3dc9ddecb028c|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|22|1|V|lua
+			text = function(buffer)
+daa3e55a2257f050aaa092459eb2e9be|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|15|1|V|lua
+		separator = {
+62f20a319ba927c2097b472dc32cd36f|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|15|1|V|lua
+			truncation = { priority = 1 },
+88ac8377120ed84739430b5817b552b5|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|15|1|V|lua
+		two_spaces = {
+e926e1b9a9eed44d0437fe047cb054ef|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|1|1|V|lua
+		space = {
+f49e59a052cd259b3c65eb1727f5f2df|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|1|1|V|lua
+	local get_hex = require('cokeline/utils').get_hex
+8d6de63710d53d62d380a024c6b66f4b|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|117|2|v|lua
+	   {
+	      text = function(buffer)
+	        return buffer.devicon.icon
+	      end,
+	      fg = function(buffer)
+	        return buffer.devicon.color
+	      end,
+	    },
+	    {
+	      text = ' ',
+	    },
+	    {
+	      text = function(buffer) return buffer.filename .. '  ' end,
+	      style = function(buffer)
+	        return buffer.is_focused and 'bold' or nil
+	      end,
+	    },
+	
+78d8672fdfd4dfe5adbd8f669ee536cd|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|116|1|V|lua
+				truncation = { priority = 1 },
+308c2e438579f466c10583f530f0d141|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|122|1|V|lua
+				truncation = { priority = 1 },
+			},
+60a43d5f8f12d4adf9920baf99db9919|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|145|3|V|lua
+			},
+afc7671ef03e2db90418a9d9d48117e9|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|124|1|V|lua
+			{
+				text = ' ',
+				bg = get_hex('Normal', 'bg'),
+				truncation = { priority = 1 },
+			},
+977a519b48a1358611372b4ce7d71f60|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|140|1|V|lua
+			{
+				text = '',
+				delete_buffer_on_left_click = true,
+				truncation = { priority = 1 },
+			},
+da3a7a112f70709e7e5885bc04a8dc33|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|124|1|V|lua
+			components.space,
+5a16d0c7baf417a041c544fc697b16fd|file:///root/nvim-kietpham/config/nvim/init.vim|87|37|v|vim
+	" Remove airline theme
+8193e51126feec33ab5b3e33b2f7f50d|file:///root/nvim-kietpham/config/nvim/init.vim|5|1|v|vim
+		" Plug 'vim-airline/vim-airline'
+		" Plug 'vim-airline/vim-airline-themes'
+	
+46fb2dcd8ccc2ab74d8a0992968747cb|file:///root/nvim-kietpham/config/nvim/init.vim|4|1|V|vim
+		" Status bar
+d4c21759c854db2a2b3e5832ca568b4e|file:///root/nvim-kietpham/config/nvim/lua/pluglua/windline.lua|1|1|V|lua
+	require('wlsample.evil_line')
+5ba9877d364743053c08600634e8b1e1|file:///root/nvim-kietpham/config/nvim/lua/pluglua/windline.lua|1|1|V|lua
+	loca windline = require('windline')
+	local helper = require('windline.helpers')
+	local b_components = require('windline.components.basic')
+	local state = _G.WindLine.state
+	
+	local lsp_comps = require('windline.components.lsp')
+	local git_comps = require('windline.components.git')
+	
+	local hl_list = {
+	    Black = { 'white', 'black' },
+	    White = { 'black', 'white' },
+	    Inactive = { 'InactiveFg', 'InactiveBg' },
+	    Active = { 'ActiveFg', 'ActiveBg' },
+	}
+	local basic = {}
+	
+	local breakpoint_width = 90
+	basic.divider = { b_components.divider, '' }
+	basic.bg = { ' ', 'StatusLine' }
+	
+	local colors_mode = {
+	    Normal = { 'red', 'black' },
+	    Insert = { 'green', 'black' },
+	    Visual = { 'yellow', 'black' },
+	    Replace = { 'blue_light', 'black' },
+	    Command = { 'magenta', 'black' },
+	}
+	
+	basic.vi_mode = {
+	    name = 'vi_mode',
+	    hl_colors = colors_mode,
+	    text = function()
+	        return { { '  ', state.mode[2] } }
+	    end,
+	}
+	basic.square_mode = {
+	    hl_colors = colors_mode,
+	    text = function()
+	        return { { '▊', state.mode[2] } }
+	    end,
+	}
+	
+	basic.lsp_diagnos = {
+	    name = 'diagnostic',
+	    hl_colors = {
+	        red = { 'red', 'black' },
+	        yellow = { 'yellow', 'black' },
+	        blue = { 'blue', 'black' },
+	    },
+	    width = breakpoint_width,
+	    text = function(bufnr)
+	        if lsp_comps.check_lsp(bufnr) then
+	            return {
+	                { lsp_comps.lsp_error({ format = '  %s', show_zero = true }), 'red' },
+	                { lsp_comps.lsp_warning({ format = '  %s', show_zero = true }), 'yellow' },
+	                { lsp_comps.lsp_hint({ format = '  %s', show_zero = true }), 'blue' },
+	            }
+	        end
+	        return ''
+	    end,
+	}
+	basic.file = {
+	    name = 'file',
+	    hl_colors = {
+	        default = hl_list.Black,
+	        white = { 'white', 'black' },
+	        magenta = { 'magenta', 'black' },
+	    },
+	    text = function(_, _, width)
+	        if width > breakpoint_width then
+	            return {
+	                { b_components.cache_file_size(), 'default' },
+	                { ' ', '' },
+	                { b_components.cache_file_name('[No Name]', 'unique'), 'magenta' },
+	                { b_components.line_col_lua, 'white' },
+	                { b_components.progress_lua, '' },
+	                { ' ', '' },
+	                { b_components.file_modified(' '), 'magenta' },
+	            }
+	        else
+	            return {
+	                { b_components.cache_file_size(), 'default' },
+	                { ' ', '' },
+	                { b_components.cache_file_name('[No Name]', 'unique'), 'magenta' },
+	                { ' ', '' },
+	                { b_components.file_modified(' '), 'magenta' },
+	            }
+	        end
+	    end,
+	}
+	basic.file_right = {
+	    hl_colors = {
+	        default = hl_list.Black,
+	        white = { 'white', 'black' },
+	        magenta = { 'magenta', 'black' },
+	    },
+	    text = function(_, _, width)
+	        if width < breakpoint_width then
+	            return {
+	                { b_components.line_col_lua, 'white' },
+	                { b_components.progress_lua, '' },
+	            }
+	        end
+	    end,
+	}
+	basic.git = {
+	    name = 'git',
+	    hl_colors = {
+	        green = { 'green', 'black' },
+	        red = { 'red', 'black' },
+	        blue = { 'blue', 'black' },
+	    },
+	    width = breakpoint_width,
+	    text = function(bufnr)
+	        if git_comps.is_git(bufnr) then
+	            return {
+	                { git_comps.diff_added({ format = '  %s', show_zero = true }), 'green' },
+	                { git_comps.diff_removed({ format = '  %s', show_zero = true }), 'red' },
+	                { git_comps.diff_changed({ format = ' 柳%s', show_zero = true }), 'blue' },
+	            }
+	        end
+	        return ''
+	    end,
+	}
+	
+	local quickfix = {
+	    filetypes = { 'qf', 'Trouble' },
+	    active = {
+	        { '🚦 Quickfix ', { 'white', 'black' } },
+	        { helper.separators.slant_right, { 'black', 'black_light' } },
+	        {
+	            function()
+	                return vim.fn.getqflist({ title = 0 }).title
+	            end,
+	            { 'cyan', 'black_light' },
+	        },
+	        { ' Total : %L ', { 'cyan', 'black_light' } },
+	        { helper.separators.slant_right, { 'black_light', 'InactiveBg' } },
+	        { ' ', { 'InactiveFg', 'InactiveBg' } },
+	        basic.divider,
+	        { helper.separators.slant_right, { 'InactiveBg', 'black' } },
+	        { '🧛 ', { 'white', 'black' } },
+	    },
+	
+	    always_active = true,
+	    show_last_status = true,
+	}
+	
+	local explorer = {
+	    filetypes = { 'fern', 'NvimTree', 'lir' },
+	    active = {
+	        { '  ', { 'black', 'red' } },
+	        { helper.separators.slant_right, { 'red', 'NormalBg' } },
+	        { b_components.divider, '' },
+	        { b_components.file_name(''), { 'white', 'NormalBg' } },
+	    },
+	    always_active = true,
+	    show_last_status = true,
+	}
+	
+	basic.lsp_name = {
+	    width = breakpoint_width,
+	    name = 'lsp_name',
+	    hl_colors = {
+	        magenta = { 'magenta', 'black' },
+	    },
+	    text = function(bufnr)
+	        if lsp_comps.check_lsp(bufnr) then
+	            return {
+	                { lsp_comps.lsp_name(), 'magenta' },
+	            }
+	        end
+	        return {
+	            { b_components.cache_file_type({icon = true}), 'magenta' },
+	        }
+	    end,
+	}
+	
+	local default = {
+	    filetypes = { 'default' },
+	    active = {
+	        basic.square_mode,
+	        basic.vi_mode,
+	        basic.file,
+	        basic.lsp_diagnos,
+	        basic.divider,
+	        basic.file_right,
+	        basic.lsp_name,
+	        basic.git,
+	        { git_comps.git_branch(), { 'magenta', 'black' }, breakpoint_width },
+	        { ' ', hl_list.Black },
+	        basic.square_mode,
+	    },
+	    inactive = {
+	        { b_components.full_file_name, hl_list.Inactive },
+	        basic.file_name_inactive,
+	        basic.divider,
+	        basic.divider,
+	        { b_components.line_col, hl_list.Inactive },
+	        { b_components.progress, hl_list.Inactive },
+	    },
+	}
+	
+	windline.setup({
+	    colors_name = function(colors)
+	        -- print(vim.inspect(colors))
+	        -- ADD MORE COLOR HERE ----
+	        return colors
+	    end,
+	    statuslines = {
+	        default,
+	        quickfix,
+	        explorer,
+	    },
+b78b3c4c3ae639f6cfeb66df989359d0|file:///root/nvim-kietpham/config/nvim/lua/pluglua/init.lua|13|1|V|lua
+	-- require('pluglua.windline')
+5bf13c45ec847812a82aff8757bf57d4|file:///root/nvim-kietpham/config/nvim/init.vim|84|1|V|vim
+		Plug 'windwp/windline.nvim'
+f510a1ca3792ab62c417e40b28d6118f|file:///root/nvim-kietpham/config/nvim/lua/pluglua/lualine.lua|1|1|V|lua
+	-- Bubbles config for lualine
+	-- Author: lokesh-krishna
+	-- MIT license, see LICENSE for more details.
+	
+	-- stylua: ignore
+	local colors = {
+	  blue   = '#80a0ff',
+	  cyan   = '#79dac8',
+	  black  = '#080808',
+	  white  = '#c6c6c6',
+	  red    = '#ff5189',
+	  violet = '#d183e8',
+	  grey   = '#303030',
+	}
+	
+	local bubbles_theme = {
+	  normal = {
+	    a = { fg = colors.black, bg = colors.violet },
+	    b = { fg = colors.white, bg = colors.grey },
+	    c = { fg = colors.black, bg = colors.black },
+	  },
+	
+	  insert = { a = { fg = colors.black, bg = colors.blue } },
+	  visual = { a = { fg = colors.black, bg = colors.cyan } },
+	  replace = { a = { fg = colors.black, bg = colors.red } },
+	
+	  inactive = {
+	    a = { fg = colors.white, bg = colors.black },
+	    b = { fg = colors.white, bg = colors.black },
+	    c = { fg = colors.black, bg = colors.black },
+	  },
+	}
+	
+	require('lualine').setup {
+	  options = {
+	    theme = 'tokyonight',
+	    component_separators = '|',
+	    section_separators = { left = '', right = '' },
+	  },
+	  sections = {
+	    lualine_a = {
+	      { 'mode', separator = { left = '' }, right_padding = 2 },
+	    },
+	    lualine_b = { 'filename', 'branch' },
+	    lualine_c = { 'fileformat' },
+	    lualine_x = {},
+	    lualine_y = { 'filetype', 'progress' },
+	    lualine_z = {
+	      { 'location', separator = { right = '' }, left_padding = 2 },
+	    },
+	  },
+	  inactive_sections = {
+	    lualine_a = { 'filename' },
+	    lualine_b = {},
+	    lualine_c = {},
+	    lualine_x = {},
+	    lualine_y = {},
+	    lualine_z = { 'location' },
+	  },
+	  tabline = {},
+	  extensions = {},
+	}
+cad99f404e265132bd952a1da1a9644c|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|36|1|V|lua
+					(mappings.is_picking_focus() or mappings.is_picking_close())
+					and 'italic,bold'
+					 or nil
+			end,
+			truncation = { priority = 1 },
+		},
+		index = {
+			text = function(buffer)
+				return buffer.index .. ': '
+			end,
+			truncation = { priority = 1 },
+		},
+		unique_prefix = {
+			text = function(buffer)
+				return buffer.unique_prefix
+			end,
+			fg = comments_fg,
+			style = 'italic',
+			truncation = {
+				priority = 3,
+				direction = 'left',
+			},
+		},
+		filename = {
+			text = function(buffer)
+				return buffer.filename
+			end,
+			style = function(buffer)
+				return
+					((buffer.is_focused and buffer.diagnostics.errors ~= 0)
+						and 'bold,underline')
+					or (buffer.is_focused and 'bold')
+					or (buffer.diagnostics.errors ~= 0 and 'underline')
+					or nil
+			end,
+			truncation = {
+				priority = 2,
+				direction = 'left',
+			},
+		},
+		diagnostics = {
+			text = function(buffer)
+				return
+					(buffer.diagnostics.errors ~= 0 and '  ' .. buffer.diagnostics.errors)
+					or (buffer.diagnostics.warnings ~= 0 and '  ' .. buffer.diagnostics.warnings)
+					or ''
+			end,
+			fg = function(buffer)
+				return
+					(buffer.diagnostics.errors ~= 0 and errors_fg)
+					or (buffer.diagnostics.warnings ~= 0 and warnings_fg)
+					or nil
+			end,
+			truncation = { priority = 1 },
+		},
+		close_or_unsaved = {
+			text = function(buffer)
+				return buffer.is_modified and '●' or ''
+			end,
+			fg = function(buffer)
+				return buffer.is_modified and green or nil
+			end,
+			delete_buffer_on_left_click = true,
+			truncation = { priority = 1 },
+		},
+	}
+	
+	require('cokeline').setup({
+		show_if_buffers_are_at_least = 1,
+	
+		buffers = {
+			-- filter_valid = function(buffer) return buffer.type ~= 'terminal' end,
+			-- filter_visible = function(buffer) return buffer.type ~= 'terminal' end,
+			new_buffers_position = 'next',
+		},
+	
+		rendering = {
+			max_buffer_width = 40,
+		},
+		default_hl = {
+			fg = function(buffer)
+				return
+					buffer.is_focused
+					and get_hex('Normal', 'fg')
+					 or get_hex('Comment', 'fg')
+			end,
+			bg = get_hex('ColorColumn', 'bg'),
+		},
+		components = {
+			{
+				text = '',
+				fg = get_hex('ColorColumn', 'bg'),
+				bg = get_hex('Normal', 'bg'),
+				truncation = { priority = 1 },
+			},
+			components.devicon,
+			components.space,
+			components.index,
+			components.unique_prefix,
+			components.filename,
+			components.diagnostics,
+			components.two_spaces,
+			components.close_or_unsaved,
+			components.space,
+			{
+				text = '',
+				fg = get_hex('ColorColumn', 'bg'),
+				bg = get_hex('Normal', 'bg'),
+				truncation = { priority = 1 },
+			},
+		},
+	})
+3a6312775e8ed13058a2ce406c1ebcba|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|35|1|V|lua
+				return
+065c3f6a005b20ab2bd5024a946fc245|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|34|1|V|lua
+			style = function(_)
+98c5a5c673c9574f5a5d1a3c3f1777a6|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|1|1|V|lua
+	local get_hex = require('cokeline/utils').get_hex
+	local mappings = require('cokeline/mappings')
+	
+	local comments_fg = get_hex('Comment', 'fg')
+	local errors_fg = get_hex('DiagnosticError', 'fg')
+	local warnings_fg = get_hex('DiagnosticWarn', 'fg')
+	
+	local red = vim.g.terminal_color_1
+	local green = vim.g.terminal_color_2
+	local yellow = vim.g.terminal_color_3
+	
+	local components = {
+		space = {
+			text = ' ',
+			truncation = { priority = 1 },
+		},
+		two_spaces = {
+			text = '  ',
+			truncation = { priority = 1 },
+		},
+		devicon = {
+			text = function(buffer)
+				return
+					(mappings.is_picking_focus() or mappings.is_picking_close())
+						and buffer.pick_letter .. ' '
+						 or buffer.devicon.icon
+			end,
+			fg = function(buffer)
+				return
+					(mappings.is_picking_focus() and yellow)
+					or (mappings.is_picking_close() and red)
+					or buffer.devicon.color
+			end,
+6cdc35a9785f8f3f108fc7d74978ed80|file:///root/nvim-kietpham/config/nvim/init.vim|3|10|V|vim
+		" Plugin can be used in NEOVIM < 0.6.0, without lua and without Internet
+ff8ac23912d7598e92777c3fdef74f48|file:///root/nvim-kietpham/config/nvim/init.vim|5|20|v|vim
+										| Comment.nvim					| --
+d6071d224a4a81ade63aa75c780cd7f1|file:///root/nvim-kietpham/config/nvim/init.vim|9|22|v|vim
+									| --							| --
+0036d57afd2d3e668afa361cc3b1f154|file:///root/nvim-kietpham/config/nvim/init.vim|7|3|V|vim
+		" Show information related to git
+57f48d2fc1479e20caf89e54dd86a30d|file:///root/nvim-kietpham/config/nvim/init.vim|40|53|v|vim
+			" Need to learn key	
+6c4aeb5b95a4aaf69b2e40b66ec64f06|file:///root/nvim-kietpham/config/nvim/init.vim|113|1|V|vim
+	" Default configuration
+	autocmd Filetype gitcommit setlocal spell textwidth=72
+	
+364a17d72ed76d6ff046aa1b773bab4c|file:///root/nvim-kietpham/config/nvim/init.vim|20|30|v|vim
+	-------------------------- (NEED TO TEST)
+3b802567794c14426483ed7fa8490c1b|file:///root/nvim-kietpham/config/nvim/init.vim|50|33|v|vim
+			" Need to learn key
+36322543485a988358e25b562d8f3f1e|file:///root/nvim-kietpham/config/nvim/init.vim|56|15|V|vim
+		" Vim smoothie
+fc3aa648f936b2ce4dd0705b2812d6ec|file:///root/nvim-kietpham/config/nvim/init.vim|3|1|V|vim
+		" Theme"
+		" 1. vim-airline
+749915638c42dad558cf3b69f9abe51c|file:///root/nvim-kietpham/config/nvim/init.vim|102|4|V|vim
+		Plug 'nvim-lualine/lualine.nvim'			
+51425acd123fd5ab8cdb290777306fdb|file:///root/nvim-kietpham/config/nvim/init.vim|153|9|V|vim
+	set textwidth=0 wrapmargin=0
+6ad4d203ef9ece2eb9205efa87622f2d|file:///root/nvim-kietpham/config/nvim/init.vim|104|4|V|vim
+		" Lua line
+e1d292958e3a487413a962eec8ed12e1|file:///root/nvim-kietpham/config/nvim/init.vim|112|4|V|vim
+		Plug 'noib3/nvim-cokeline'
+ea9cd59e286b44081096ba482d91be8f|file:///root/nvim-kietpham/config/nvim/init.vim|3|3|^v|vim
+	--------------------- F
+4e064dcfdaa4296aac2b968fba6e3c14|file:///root/nvim-kietpham/config/nvim/init.vim|3|4|v|vim
+	---------------------
+1fc2f10c2721f8ccedaaf3030a812771|file:///root/nvim-kietpham/config/nvim/init.vim|65|2|V|vim
+		" Plugin can be used in NEOVIM < 0.6.0, with lua and without Internet
+3879c0512d31943923b3906a67ba607a|file:///root/nvim-kietpham/config/nvim/init.vim|104|1|V|vim
+		" Cinamon.nvim
+		Plug 'declancm/cinnamon.nvim'
+8037a1b68df21efd324467adae64aecb|file:///root/nvim-kietpham/config/nvim/init.vim|65|41|v|vim
+	 -- 2. indent-blankline.nvim with lua script (NeoVIM-0.8)
+0c0ce0c88bc4d185e23e6321c8ad3e5e|file:///root/nvim-kietpham/config/nvim/init.vim|83|11|V|vim
+		" Neo Clip
+71feeb41f5185c4dba880d39bd9801b3|file:///root/nvim-kietpham/config/nvim/init.vim|3|1|V|vim
+		" ========================================== Feature plugins ==========================================
+1f26942ee5c6a0e245103aca4db68a94|file:///root/nvim-kietpham/config/nvim/init.vim|2|5|V|vim
+	" Plug something
+03b9c71c1368d0a403cea8acb9439032|file:///root/nvim-kietpham/config/nvim/init.vim|106|28|v|vim
+		" Install sad
+15fc7d8f28ef2ab05dbac57428c5aea0|file:///root/nvim-kietpham/config/nvim/init.vim|106|23|v|vim
+						
+b3e613366a8fc1154e2b09d14274c7f5|file:///root/nvim-kietpham/config/nvim/init.vim|110|2|^v|vim
+	" Dashboard
+	Plug 'startup-nvim/startup.nvim'
+3ad89c5ae3d8799dca1b57ea052cba6c|file:///root/nvim-kietpham/config/nvim/init.vim|112|3|V|vim
+		"
+		Plug 'folke/tokyonight.nvim', { 'branch': 'main'}
+d2c8f93e08df28717b778a4b194cfe8b|file:///root/nvim-kietpham/config/nvim/init.vim|112|2|V|vim
+		Plug 'folke/tokyonight.nvim', { 'branch': 'main'}
+a3f608dee7e1ebd225b62ecf36fc21c8|file:///root/nvim-kietpham/config/nvim/init.vim|128|11|V|vim
+		" Lens.vim
+d1082556ae381dc3d950727a342eaf49|file:///root/nvim-kietpham/config/nvim/init.vim|134|11|V|vim
+		" Twilight
+1d07f00461c9ff4a8b4bae688ceec153|file:///root/nvim-kietpham/config/nvim/init.vim|148|19|V|vim
+		" Tokyonight theme
+faea56b37ec1fd485b00676aadcede97|file:///root/nvim-kietpham/config/nvim/init.vim|148|13|V|vim
+		" Bufferline
+c5dfbc254e40ab061d7fb0e60914e948|file:///root/nvim-kietpham/config/nvim/init.vim|110|1|V|vim
+	" ========================================== UI plugins (options) ==========================================
+5752760bf9f3fce9597cf7c881005a68|file:///root/nvim-kietpham/config/nvim/init.vim|149|1|V|vim
+	" ========================================== Highlight plugins ==========================================
+73b65b5be8d36b5597e631312c5ea7f4|file:///root/nvim-kietpham/config/nvim/init.vim|148|2|^v|vim
+	" Color for parentheses
+	" 1. rainbow_parentheses.vim (VIM)
+	Plug 'kien/rainbow_parentheses.vim'
+92f7a454563c87c9b2fe1343cb1d62b9|file:///root/nvim-kietpham/config/nvim/init.vim|145|2|^v|vim
+	" Show indentline
+	" 1. indent-blankline.nvim (NeoVIM-0
+	Plug 'lukas-reineke/indent-blankline
+	" Color for parentheses
+	" 1. rainbow_parentheses.vim (VIM)
+	Plug 'kien/rainbow_parentheses.vim'
+a8f7c9fcf39125c72a9cdf2e7ec3a51c|file:///root/nvim-kietpham/config/nvim/init.vim|145|3|^v|vim
+	" Show indentline                   
+	" 1. indent-blankline.nvim (NeoVIM-0
+	Plug 'lukas-reineke/indent-blankline
+	" Color for parentheses             
+	" 1. rainbow_parentheses.vim (VIM)  
+	Plug 'kien/rainbow_parentheses.vim' 
+b9eba4fc4e2bf4cfde6857f14dd08a7c|file:///root/nvim-kietpham/config/nvim/init.vim|156|16|V|vim
+		" 1. nvim-web-devicons and vim
+be17c8b8fb115c59022d8a7f2c90cf02|file:///root/nvim-kietpham/config/nvim/init.vim|164|29|V|vim
+		" Plug 'folke/todo-comments.nvim'
+369393a0228b928579b1d4193e845e48|file:///root/nvim-kietpham/config/nvim/autoload/onedark.vim|5|1|V|vim
+	let s:colors = {
+	      \ "red": get(s:overrides, "red", { "gui": "#FF0040", "cterm": "204", "cterm16": "1" }),
+	      \ "dark_red": get(s:overrides, "dark_red", { "gui": "#FF0050", "cterm": "196", "cterm16": "9" }),
+	      \ "green": get(s:overrides, "green", { "gui": "#7BB353", "cterm": "114", "cterm16": "2" }),
+	      \ "yellow": get(s:overrides, "yellow", { "gui": "#DEE73F", "cterm": "180", "cterm16": "3" }),
+	      \ "dark_yellow": get(s:overrides, "dark_yellow", { "gui": "#FAE400", "cterm": "173", "cterm16": "11" }),
+	      \ "blue": get(s:overrides, "blue", { "gui": "#61AFEF", "cterm": "39", "cterm16": "4" }),
+	      \ "purple": get(s:overrides, "purple", { "gui": "#157DD2", "cterm": "170", "cterm16": "5" }),
+	      \ "cyan": get(s:overrides, "cyan", { "gui": "#56B6C2", "cterm": "38", "cterm16": "6" }),
+	      \ "white": get(s:overrides, "white", { "gui": "#F0F0F0", "cterm": "145", "cterm16": "15" }),
+	      \ "black": get(s:overrides, "black", { "gui": "#282C34", "cterm": "235", "cterm16": "0" }),
+	      \ "foreground": get(s:overrides, "foreground", { "gui": "#ABB2BF", "cterm": "145", "cterm16": "NONE" }),
+	      \ "background": get(s:overrides, "background", { "gui": "#181823", "cterm": "235", "cterm16": "234" }),
+	      \ "comment_grey": get(s:overrides, "comment_grey", { "gui": "#337E97", "cterm": "59", "cterm16": "8" }),
+	      \ "gutter_fg_grey": get(s:overrides, "gutter_fg_grey", { "gui": "#4B5263", "cterm": "238", "cterm16": "8" }),
+	      \ "cursor_grey": get(s:overrides, "cursor_grey", { "gui": "#272738", "cterm": "236", "cterm16": "0" }),
+	      \ "visual_grey": get(s:overrides, "visual_grey", { "gui": "#3E4452", "cterm": "237", "cterm16": "8" }),
+	      \ "menu_grey": get(s:overrides, "menu_grey", { "gui": "#3E4452", "cterm": "237", "cterm16": "7" }),
+	      \ "special_grey": get(s:overrides, "special_grey", { "gui": "#3B4048", "cterm": "238", "cterm16": "7" }),
+	      \ "vertsplit": get(s:overrides, "vertsplit", { "gui": "#3E4452", "cterm": "59", "cterm16": "4" }),
+	      \}
+f5a40e75ceb3cf832c9f2b3e7d1a260e|file:///root/nvim-kietpham/config/nvim/autoload/onedark.vim|16|71|v|vim
+	#ABB2BF
+fae1e9e1192cd081d6ebeffb9c11ea59|file:///root/nvim-kietpham/config/nvim/autoload/onedark.vim|17|71|v|vim
+	#181823
+0965abc7887546f94889955ae91fe392|file:///root/nvim-kietpham/config/nvim/autoload/onedark.vim|8|61|v|vim
+	#7BB353
+1d1c5f0bfda57f024082b2588bbc97e3|file:///root/nvim-kietpham/config/nvim/autoload/onedark.vim|9|63|v|vim
+	#DEE73F
+e4ebbf234b791f87ee94b684d215f2bd|file:///root/nvim-kietpham/config/nvim/autoload/onedark.vim|6|57|v|vim
+	#FF0040
+14cc89e76ff6cc20b741063d1f998e43|file:///root/nvim-kietpham/config/nvim/autoload/onedark.vim|8|61|v|vim
+	#99C868
+f38ee416f13b72c534a583990556f9d9|file:///root/nvim-kietpham/config/nvim/autoload/onedark.vim|19|79|v|vim
+	#4B5263
+29f1ab699588f1cbca0f45f370dbab61|file:///root/nvim-kietpham/config/nvim/settings/highlight_map.vim|4|32|V|vim
+	highlight LineNr guifg=##4B526337575D
+24c65323b2ca2d7654c54e285fa07225|file:///root/nvim-kietpham/config/nvim/settings/highlight_map.vim|4|32|v|vim
+	37575D
+3f5ae45aa3698af30b0a9797d4cdb591|file:///root/nvim-kietpham/config/nvim/settings/highlight_map.vim|4|32|v|vim
+	4B5263
+c26e8b5bd8d798937569238117ea87b8|file:///root/nvim-kietpham/config/nvim/settings/highlight_map.vim|8|1|V|vim
+	highlight NotifyERRORBorder guifg=#8A1F1F
+	highlight NotifyWARNBorder guifg=#79491D
+	highlight NotifyINFOBorder guifg=#4F6752
+	highlight NotifyDEBUGBorder guifg=#8B8B8B
+	highlight NotifyTRACEBorder guifg=#4F3552
+	highlight NotifyERRORIcon guifg=#F70067
+	highlight NotifyWARNIcon guifg=#F79000
+	highlight NotifyINFOIcon guifg=#A9FF68
+	highlight NotifyDEBUGIcon guifg=#8B8B8B
+	highlight NotifyTRACEIcon guifg=#D484FF
+	highlight NotifyERRORTitle  guifg=#F70067
+	highlight NotifyWARNTitle guifg=#F79000
+	highlight NotifyINFOTitle guifg=#A9FF68
+	highlight NotifyDEBUGTitle  guifg=#8B8B8B
+	highlight NotifyTRACETitle  guifg=#D484FF
+	highlight link NotifyERRORBody Normal
+	highlight link NotifyWARNBody Normal
+	highlight link NotifyINFOBody Normal
+	highlight link NotifyDEBUGBody Normal
+	highlight link NotifyTRACEBody Normal
+26af98a6964d7d3120501160a57655c5|file:///root/nvim-kietpham/config/nvim/settings/highlight_map.vim|4|31|v|vim
+	#343953
+0940ef03f37e25e710d97f07df66e568|file:///root/nvim-kietpham/config/nvim/colors/onedark.vim|197|1|V|vim
+	call s:h("String", { "fg": s:green }) " a string constant: "this is a string"
+c3dfa567bb93e08e8297b5f42e87f1b1|file:///root/nvim-kietpham/config/nvim/colors/onedark.vim|198|1|V|vim
+	call s:h("String", { "fg": s:yellow }) " a string constant: "this is a string"
+b13dd50be97ebc4b71a841f3d57adc96|file:///root/nvim-kietpham/config/nvim/autoload/onedark.vim|6|57|v|vim
+	#C74343
+c574571786741d35e05b907e5c660354|file:///root/nvim-kietpham/config/nvim/autoload/onedark.vim|7|68|v|vim
+	FF0050
+8b1fdd7636e1d1c82a14f172db570128|file:///root/nvim-kietpham/config/nvim/autoload/onedark.vim|32|1|V|vim
+	"       \ "red": get(s:overrides, "red", { "gui": "#FF0040", "cterm": "204", "cterm16": "1" }),
+	"       \ "dark_red": get(s:overrides, "dark_red", { "gui": "#FF0050", "cterm": "196", "cterm16": "9" }),
+d64bc6803567c9ba95d55d3dd605fb5c|file:///root/nvim-kietpham/config/nvim/autoload/onedark.vim|6|1|V|vim
+	      \ "red": get(s:overrides, "red", { "gui": "#CA1243", "cterm": "204", "cterm16": "1" }),
+	      \ "dark_red": get(s:overrides, "dark_red", { "gui": "#C74343", "cterm": "196", "cterm16": "9" }),
+05ca2068ef40882a0393208e930420ad|file:///root/nvim-kietpham/config/nvim/autoload/onedark.vim|34|56|v|vim
+	#7BB353"
+0f6061bccadd8d6ed8c5dd925fbcc804|file:///root/nvim-kietpham/config/nvim/autoload/onedark.vim|8|61|v|vim
+	#68C3B6
+3d42d679776476f1ad3c3854882f0ff7|file:///root/nvim-kietpham/config/nvim/autoload/onedark.vim|21|73|v|vim
+	#3E4452
+094f5e31146c6247a09f1027046ab59d|file:///root/nvim-kietpham/config/nvim/autoload/onedark.vim|47|68|v|vim
+	#3E4452"
+7e54befe97662df82df8de1dce8d5223|file:///root/nvim-kietpham/config/nvim/autoload/onedark.vim|21|73|v|vim
+	#33467C
+290a4b6275a1c0f8b64accce376055b7|file:///root/nvim-kietpham/config/nvim/colors/onedark.vim|261|15|V|vim
+	call s:h("MatchParen", { "fg": s:blue, "gui": "underline", "cterm": "underline" }) " The character under the cursor or just before it, if it is a paired bracket, and its match.
+51b59fd895e2826d4d042958a9fefc42|file:///root/nvim-kietpham/config/nvim/colors/onedark.vim|261|15|V|vim
+	call s:h("QuickFixLine", { "fg": s:black, "bg": s:yellow }) " Current quickfix item in the quickfix window.
+806315ac457f8869d6d7c24dd47eb342|file:///root/nvim-kietpham/config/nvim/autoload/onedark.vim|6|57|v|vim
+	#F76900
+07cf0c97a6001e88d023ba803d1fd3fb|file:///root/nvim-kietpham/config/nvim/autoload/onedark.vim|7|67|v|vim
+	#FF0050
+633e5eee9407b1fa84c7a37898912bb2|file:///root/nvim-kietpham/config/nvim/lua/pluglua/cokeline.lua|24|1|V|lua
+				return buffer.index ~= 1 and '▏' or ''
+151d12dad42ade4fd3758355759dd9ec|file:///root/nvim-kietpham/config/nvim/init.vim|236|10|V|vim
+	" Optimize
+7870b68df05bc85a23190f7bd27842e9|file:///root/nvim-kietpham/config/nvim/settings/airline_theme.vim|2|52|^v|vim
+	'mode', ' ', 'branch'
+9038e8479d87ba2ba9c63e7050a18b54|file:///root/nvim-kietpham/config/nvim/settings/airline_theme.vim|34|1|V|vim
+	let g:airline_symbols.maxlinenr = ''
+75bdf9d454c45c282d134e61241accba|file:///root/nvim-kietpham/config/nvim/settings/airline_theme.vim|36|1|V|vim
+	let g:airline_symbols.colnr='col'
+2f3cadd04dff8df4566a635313e014b4|file:///root/nvim-kietpham/config/nvim/settings/airline_theme.vim|36|1|V|vim
+	let g:airline_symbols.readonly = ''
+f7e53339e314c2a9a9204c60776b37cb|file:///root/nvim-kietpham/config/nvim/settings/airline_theme.vim|33|1|V|vim
+	let g:airline_symbols.linenr = ''
+7b7e650923b18c49f0da21f0d6060d36|file:///root/nvim-kietpham/config/nvim/settings/airline_theme.vim|45|1|V|vim
+		" let g:airline_section_warning (ycm_warning_count, syntastic-warn, languageclient_warning_count, whitespace)
+c97bd7f85fa85e3e71fdac4c92f08152|file:///root/nvim-kietpham/config/nvim/settings/airline_theme.vim|44|1|V|vim
+		" let g:airline_section_error   (ycm_error_count, syntastic-err, eclim, languageclient_error_count)
+f429d846e82bd16434a84f72d1bf5145|file:///root/nvim-kietpham/config/nvim/settings/airline_theme.vim|43|1|V|vim
+		" let g:airline_section_z = airline#section#create_right(['%l', '%c'])
+265486a54d09c9b3968d75a439b6ea7c|file:///root/nvim-kietpham/config/nvim/settings/airline_theme.vim|11|16|V|vim
+	let g:airline_section_y = airline#section#create(['%B'])
+faacefb7ea83f821c2106d3705bb2665|file:///root/nvim-kietpham/config/nvim/settings/airline_theme.vim|48|1|v|vim
+	function! AirlineInit()
+	endfunction
+	a
+99ed42eeefe33128f318a2a8b4579e2e|file:///root/nvim-kietpham/config/nvim/settings/airline_theme.vim|48|1|V|vim
+	utocmd VimEnter * call AirlineInit()
+cc7f16e59318d3993a0176bd7fcbd1bc|file:///root/nvim-kietpham/config/nvim/coc-settings.json|10|1|V|json
+		"clangd.semanticHighlighting": true,
+		"coc.preferences.semantictokensHighlights": false,
+a780099393c9ad62890d194bb1c741f1|file:///root/nvim-kietpham/config/nvim/settings/keymap.vim|64|31|v|vim
+	:lua require("notify")("Save successfull 勒", "info",{title = "Save file "})<CR>:noh<CR>
+	
+959dd502a1be8005c8ba15787f8e6907|file:///root/nvim-kietpham/config/nvim/init.vim|1|1|V|vim
+	" ========================================== INFORMATION ==========================================
+f73cafb5c132d079adff91dd79688533|file:///root/nvim-kietpham/config/nvim/settings/keymap.vim|1|1|V|vim
+	" ========================================== Function key ==========================================
+5f700c489e5dac209c6b33279a43d445|file:///root/nvim-kietpham/config/nvim/settings/keymap.vim|20|1|V|vim
+	" ========================================== Coding key ==========================================
+4899677ca49c33fae9b1af8a1ec5efc1|file:///root/nvim-kietpham/config/nvim/settings/keymap.vim|88|1|V|vim
+	" ========================================== UI key ==========================================
+b02cd44804731ca2ac70950fe24201e3|file:///root/nvim-kietpham/config/nvim/settings/keymap.vim|62|23|V|vim
+	" Delete word in insert mode
+09d611f170f6d6d3fa03fc5bd2d95a88|file:///root/nvim-kietpham/config/nvim/settings/keymap.vim|26|26|v|vim
+	Telescope neoclip unnamed extra=star,plus,a,b,c<CR>
+c98038fa7900ccb6ee85f078bf330315|file:///root/nvim-kietpham/config/nvim/settings/telescope.vim|7|53|v|vim
+	prompt_prefix=🔍
+5c7d61d92749a717ad86e6baec684578|file:///root/nvim-kietpham/config/nvim/settings/telescope.vim|7|53|v|vim
+	prompt_prefix=🔍<CR>
+	

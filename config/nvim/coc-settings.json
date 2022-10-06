@@ -1,0 +1,165 @@
+{
+	"languageserver": {
+		"go": {
+			"command": "gopls",
+			"rootPatterns": ["go.mod"],
+			"trace.server": "verbose",
+			"filetypes": ["go"]
+		},
+		"ccls": {
+            "command": "ccls",
+            "filetypes": ["c", "cpp", "objc", "objcpp"],
+            "rootPatterns": [".ccls", "compile_commands.json", ".vim/", ".git/", ".hg/"],
+            "initializationOptions": {
+                "cache": {
+                    "directory": "/tmp/ccls"
+                },
+                "highlight": { "lsRanges" : true }
+            }
+        },
+        "cquery": {
+            "command": "cquery",
+            "args": ["--log-file=/tmp/cq.log"],
+            "filetypes": ["c", "cpp"],
+            "rootPatterns": ["compile_flags.txt", "compile_commands.json", ".vim/", ".git/", ".hg/"],
+            "initializationOptions": {
+                "cacheDirectory": "/tmp/cquery",
+                "highlight": { "enabled" : true },
+                "emitInactiveRegions" : true
+            }
+        }
+	},
+	"lightbulb.text": {
+		"default": "",
+		"quickfix": ""
+	},
+	"yank.highlight.duration": 500,
+	"yank.list.maxsize": 300,
+	"explorer.root.strategies": ["workspace", "custom:vcs", "custom:vcs-r"],
+	"explorer.position": "left",
+	"explorer.width": 45,
+	"explorer.contentWidth": 43,
+	"explorer.buffer.root.template": "[icon & 1] OPEN EDITORS",
+	"explorer.file.root.template": "[icon & 1] PROJECT ([root])",
+	"explorer.file.child.template": "[git | 2] [selection | clip | 1] [indent][icon | 1] [diagnosticError & 1][filename omitCenter 1][modified][readonly] [linkIcon & 1][link growRight 1 omitCenter 5]",
+	"explorer.filename.colored.enable": true,
+	"explorer.icon.enableNerdfont": true,
+	"explorer.icon.source": "nvim-web-devicons",
+	"explorer.icon.customIcons": {
+		"icons": {
+			"file":{
+				"code": "",
+				"color": "#00afaf"
+			},
+			"folderClosed": {
+				"code": "",
+				"color": "#00afaf"
+			},
+			"folderOpened": {
+				"code": "",
+				"color": "#00afaf"
+			}   
+		},
+		"extensions": {},
+		"filenames": {},
+		"dirnames": {},
+		"patternMatches": {},
+		"dirPatternMatches": {}
+	},
+	"explorer.icon.expanded": "",
+	"explorer.icon.collapsed": "",
+	"explorer.icon.selected":"",
+	"explorer.icon.hidden": "﬒",
+	"explorer.icon.link": "",
+	"explorer.icon.readonly": " ",
+	"explorer.file.showHiddenFiles": true,
+	"explorer.file.column.indent.chars": "|",
+	"explorer.file.column.indent.indentLine": true,
+	"explorer.file.cdCommand": "cd",
+	"explorer.file.git.showUntrackedFiles": "system",
+	"explorer.git.icon.rootStatus.stashed": "$",
+	"explorer.git.icon.rootStatus.ahead": "",
+	"explorer.git.icon.rootStatus.behind": "",
+	"explorer.git.icon.rootStatus.untracked":"",
+	"explorer.git.icon.rootStatus.modified":"",
+	"explorer.git.icon.rootStatus.added": "",
+	"explorer.git.icon.rootStatus.deleted": "",
+	"explorer.git.icon.rootStatus.renamed": "",
+	"explorer.git.icon.rootStatus.conflicted": "",
+	"explorer.git.icon.status.unmodified": " ",
+	"explorer.git.icon.status.modified": "",
+	"explorer.git.icon.status.added": "",
+	"explorer.git.icon.status.renamed": "",
+	"explorer.git.icon.status.copied": "",
+	"explorer.git.icon.status.unmerged": "",
+	"explorer.git.icon.status.untracked": "",
+	"explorer.git.icon.status.ignored": "",
+	"explorer.keyMappings.global": {
+		"i": false, // cancel default mapkey
+		"<tab>": "actionMenu",
+		"h": ["wait", "collapse"],
+		"l": ["wait", "expandable?", "expand", "open:tab"],
+		"J": ["wait", "toggleSelection", "normal:j"],
+		"K": ["wait", "toggleSelection", "normal:k"],
+		"<2-LeftMouse>": [
+			"expandable?", ["expanded?", "collapse", "expand"], "open:tab"
+		],
+		"<cr>": ["wait", "expandable?", "cd", "open:tab"],
+		"sh": "open:split",
+		"sv": "open:vsplit",
+		"<bs>": ["wait", "gotoParent"],
+		"gs": ["wait", "reveal:select"],
+		"if": "preview:labeling",
+
+		"yp": "copyFilepath",
+		"yn": "copyFilename",
+		"yy": "copyFile",
+		"dd": "cutFile",
+		"p": "pasteFile",
+		"df": "delete",
+		"dF": "deleteForever",
+
+		"a": "addFile",
+		"A": "addDirectory",
+		"r": "rename",
+		"R": "refresh",
+
+		"?": "help",
+		"q": "quit",
+		"<esc>": "esc",
+		"f": "search",
+		"F": "searchRecursive"
+	},
+	"codeLens.enable": true,
+    "diagnostic.errorSign": "",
+    "diagnostic.warningSign": "",
+    "diagnostic.infoSign": "",
+    "diagnostic.hintSign": "",
+	"suggest.completionItemKindLabels": {
+		"method": "",
+		"function": "",
+		"variable": "[]",
+		"constant": "",
+		"struct": "",
+		"class": "",
+		"interface": "",
+		"text": "",
+		"enum": "",
+		"property": "",
+		"field": "",
+		"unit": "塞",
+		"file": "",
+		"value": "",
+		"event": "",
+		"folder": "",
+		"keyword": "",
+		"snippet": "",
+		"operator": "",
+		"reference": "",
+		"typeParameter": "[]",
+		"color": "",
+		"module": "",
+		"default": "",
+		"enumMember": ""
+	}
+}
